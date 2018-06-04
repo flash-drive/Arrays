@@ -1,3 +1,14 @@
 ### Sorting 1 ###
 
-# Insertion Sort #
+## Insertion Sort ##
+
+Insertion works by dividing an array into two halves; a sorted half on the left and an 
+unsorted half on the right. It works by:
+
+1) Designating the leftmost element of A as the only element of the sorted side
+2) Insert the first element from the unsorted side into the sorted side, increasing the
+number of sorted elements by one.
+3) Repeat step two until there are no unsorted elements left.
+
+Worst case scenario for insertion sort is ((n-1)(n))/2
+Best case scenario for insertion sort is n-1
